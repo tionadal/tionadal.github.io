@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#tionadalfaro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        .background-image {
+            background: url('IMG_20231212_135157.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            flex: 1;
+        }
+
+        .instagram-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+        }
+
+        .instagram-icon {
+            width: 33%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .background-image {
+                height: 50vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background-image"></div>
+        <div class="instagram-section">
+            <img class="instagram-icon" src="Instagram_Glyph_Gradient.svg" alt="Instagram Icon">
+            <p><a href="https://www.instagram.com/explore/tags/tionadalfaro/">#tionadalfaro</a></p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
